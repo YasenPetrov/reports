@@ -1,6 +1,6 @@
 # Project reports
 
-This repository contains typeset reports for some of my favourite project I have done during my studies.
+This repository contains typeset reports for some of my favourite projects I have done during my studies.
 
 I describe the projects I have included below.
 
@@ -31,7 +31,23 @@ of language model in the Dasher system.
 I designed and carried out experiments that compared RNN-based models to the language model currently employed in Dasher
 in terms of language modelling capacity as well as computational requirements.
 
-My thesis can be found [here](thesis_b/MInf_Project_Part_1.pdf) and my code and experimental results
+My thesis can be found [here](thesis_bachelor/MInf_Project_Part_1.pdf) and my code and experimental results
+[here](https://github.com/YasenPetrov/char-rnn-experiments) and
+[here](https://github.com/YasenPetrov/rnn-experiment-storage).
+
+## Master Thesis -- RNNs for Dasher: Adapting Recurrent Neural Network Language Models
+**Under the supervision of Dr Iain Murray**
+
+My Master thesis built on the work I did for my Bachelor thesis described above.
+
+A feature currently available in Dasher is that the language model can adapt to a specific user's writing style,
+meaning they will be able to enter text more quickly as this happens.
+
+Adapting RNN-based models is an open research area and there are challenges connected to implementing adaptive
+models in Dasher. In my work I compare existing approaches to adapting neural models and also propose an approach
+that improves the initial predictions in Dasher.
+
+The thesis can be found [here](thesis_master/MInf_Project_Part_2.pdf) and my code and experimental results
 [here](https://github.com/YasenPetrov/char-rnn-experiments) and
 [here](https://github.com/YasenPetrov/rnn-experiment-storage).
 
@@ -50,10 +66,6 @@ embeddings we see that some high-frequency words are "closer" to a disproportion
 We explore several different methods for producing embeddings and computing similarities. We end up with some interesting
 findings which possibly explain some claims we have found in literature on the subject. Our rather short (due to
 a hard limit in the assignment formulation) report can be found [here](anlp/anlp_cw3.pdf)
-
-[//]: <> (### Character-level language modelling)
-
-[//]: <> (In collaboration with Mihaela Stoian We implemented a simple character-level n-gram language model. We investigated different smoothing techniques and ways to generate text. Also, we tried to derive a metric for the similarity between languages based on n-gram frequencies. Our report can be found)
 
 
 ## Parallel and Concurrent Programming (National University of Singapore)
